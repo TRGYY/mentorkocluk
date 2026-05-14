@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Kişisel Koçunuz | Sizi Dinleyen, Birlikte Yürüyen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Mentor<span>Koçluk</span></div>
+            <ul class="nav-menu">
+                <li><a href="#anasayfa">Ana Sayfa</a></li>
+                <li><a href="#hizmetler">Hizmetler</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="anasayfa" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Dönüşümünüz İçin <span class="altin">Yanınızdayım</span></h1>
+            <p class="hero-sub">Kendi potansiyelinizle buluşun, hayatınızı bilinçli şekilde yeniden tasarlayın. Aldığınız her kararda size eşlik edecek bir koça hazır mısınız?</p>
+            <a href="#iletisim" class="cta-btn">Randevu Al →</a>
+        </div>
+    </section>
+
+    <!-- Hizmetler - 3 FARKLI RESİM -->
+    <section id="hizmetler" class="services">
+        <div class="container">
+            <div class="section-baslik">
+                <span class="kucuk-baslik">Yol Haritanız</span>
+                <h2>Hizmetlerim</h2>
+                <div class="cizgi"></div>
+            </div>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('service1.jpg');"></div>
+                    <h3>Bireysel Koçluk</h3>
+                    <p>Kariyer, özgüven veya ilişkilerde net hedefler koyarak, engelleri aşmanız için alan açalım.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('service2.jpg');"></div>
+                    <h3>Liderlik & Yönetici</h3>
+                    <p>Kurumsal profesyoneller için fark yaratan, stratejik ve duygusal zekayı güçlendiren program.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('service3.jpg');"></div>
+                    <h3>Dönüşüm Yolculuğu</h3>
+                    <p>Alışkanlıklarınızı fark edip, sizi ileri taşıyacak sürdürülebilir değişimi birlikte yaratalım.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımda -->
+    <section id="hakkimda" class="about">
+        <div class="container about-flex">
+            <div class="about-img">
+                <div class="img-frame">
+                    <div class="img-placeholder" style="background-image: url('about.jpg');"></div>
+                </div>
+            </div>
+            <div class="about-text">
+                <span class="kucuk-baslik">Kim olduğum</span>
+                <h2>Koçluk felsefem: Senin hikayeni onurlandırmak</h2>
+                <p>Uzun yıllar kurumlarda liderlik yaptıktan sonra insanın en güçlü dönüşüm aracının farkındalık olduğuna karar verdim. Bugüne kadar birçok danışanımla birlikte onların "yeterince iyi" olduklarını keşfetmelerine tanıklık ettim. Profesyonel koç olarak hayatın içinde bir yoldaş olarak buradayım.</p>
+                <p>Sadece dinlemiyorum; ayna tutuyorum, soruyorum ve farkındalık yaratıyorum. Sen değişime hazırsan, ben yanında yürürüm.</p>
+                <a href="#iletisim" class="secondary-btn">Hadi Başlayalım</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim" class="contact">
+        <div class="container">
+            <div class="section-baslik">
+                <span class="kucuk-baslik">Randevu Talebi</span>
+                <h2>Birlikte Yürüyelim</h2>
+                <div class="cizgi"></div>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Size nasıl yardımcı olabilirim?</h3>
+                    <p>Formu doldurduğunuzda en geç 24 saat içinde size dönüş yapıyorum. Randevunuzu telefon veya online platform üzerinden gerçekleştirebiliriz.</p>
+                    <div class="info-item">📞 +90 533 573 06 04</div>
+                    <div class="info-item">✉️ info@mentorkocluk.com</div>
+                    <div class="info-item">📍 Online / İstanbul (Yüz yüze seçeneği)</div>
+                </div>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="isim" name="isim" required placeholder="Adınız Soyadınız">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="telefon" name="telefon" required placeholder="Telefon Numaranız">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="E-posta Adresiniz">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mesaj" name="mesaj" rows="4" placeholder="Randevu talebinizi veya merak ettiklerinizi açıklayın..."></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn full-width">Randevu Talebi Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Mentor Koçluk – Bilinçli Değişim. Tüm hakları saklıdır.</p>
+            <div class="social-links">
+                <span>LinkedIn</span> <span>Instagram</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+        hamburger.addEventListener("click", () => {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        });
+        document.querySelectorAll(".nav-menu a").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+        }));
+    </script>
+</body>
+</html>
